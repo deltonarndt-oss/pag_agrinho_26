@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Agro Forte, Futuro Sustentável</title>
+    <style>
+        /* Estilos Globais e Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f9f4;
+            color: #33333379;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho */
+        header {
+            background: linear-gradient(135deg, #1e4620, #2e7d32);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 5px solid #81c784;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        /* Menu de Navegação */
+        nav {
+            background-color: #1b5e20;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #81c784;
+            color: #1b5e20;
+            border-radius: 4px;
+        }
+
+        /* Container Principal */
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Seção de Destaque */
+        .intro {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            border-left: 5px solid #2e7d32;
+        }
+
+        /* Grid de Pilares */
+        .pilares-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .pilar-card {
+            background-color: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .pilar-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .pilar-card h3 {
+            color: #2e7d32;
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #1e4620;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+            font-size: 0.9rem;
+        }
+
+        /* Responsividade para celulares */
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8rem; }
+            nav { flex-direction: column; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Agrinho 2026</h1>
+        <p>Agro Forte, Futuro Sustentável: Equilíbrio entre Produção e Meio Ambiente</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre o Tema</a>
+        <a href="#pilares">Pilares do Equilíbrio</a>
+        <a href="#projeto">Nosso Projeto</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="sobre" class="intro">
+            <h2>O Desafio do Nosso Século</h2>
+            <br>
+            <p>O projeto Agrinho 2026 nos convida a refletir sobre um dos maiores desafios da humanidade: como continuar produzindo alimentos em larga escala para abastecer o mundo, garantindo ao mesmo tempo a preservação dos recursos naturais para as próximas gerações?</p>
+            <br>
+            <p>A resposta está na tecnologia, na conscientização e nas práticas sustentáveis que unem a força do campo à inteligência ecológica.</p>
+        </section>
+
+        <section id="pilares">
+            <h2 style="color: #1e4620; margin-bottom: 20px; text-align: center;">Como alcançar esse equilíbrio?</h2>
+            
+            <div class="pilares-grid">
+                <div class="pilar-card">
+                    <h3>🌾 Tecnologia no Campo</h3>
+                    <p>O uso de drones, sensores e agricultura de precisão permite produzir mais utilizando menos água, menos defensivos e otimizando o uso da terra.</p>
+                </div>
+
+                <div class="pilar-card">
+                    <h3>🌳 Preservação Ativa</h3>
+                    <p>Proteger as matas ciliares, as fontes de água e adotar o plantio direto ajuda a manter a biodiversidade e a saúde do solo rica por muito mais tempo.</p>
+                </div>
+
+                <div class="pilar-card">
+                    <h3>🔄 Economia Circular</h3>
+                    <p>Aproveitamento de resíduos orgânicos para geração de bioenergia e adubação natural, transformando o que seria lixo em uma nova fonte de riqueza.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projeto" class="intro" style="margin-top: 40px;">
+            <h2>Nossa Contribuição para o Agrinho</h2>
+            <br>
+            <p>Este espaço está reservado para você detalhar o que a sua escola ou você estão pensando para o Agrinho 2026! Você pode adicionar fotos das suas maquetes, redações, desenhos ou relatórios de práticas sustentáveis que observou na sua região.</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido para o Concurso Agrinho. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
